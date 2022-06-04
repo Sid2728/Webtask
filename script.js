@@ -580,7 +580,7 @@ const element = document.getElementById("products");
 site.forEach((member) => {
   const div = document.createElement("div");
 
-  if (member.id < 10) {
+  if (member.id < 31) {
     div.classList.add("row");
     div.classList.add("col-md-6");
     div.classList.add("col-lg-4");
